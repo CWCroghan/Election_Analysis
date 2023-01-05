@@ -1,0 +1,25 @@
+counties_tuple = ("Arapahoe","Denver","Jefferson")
+
+print(counties_tuple)
+
+for county in counties_tuple:
+    print(county)
+
+for i in range(len(counties_tuple)):
+    print("range len - " + counties_tuple[i])
+
+#for i in len(counties_tuple):
+#    print("only len - " + counties_tuple[i])
+
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+for i, j in counties_dict.items():
+    print(i + " county has " + str(j) + " reg voters")
+
+voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
+                {"county":"Denver", "registered_voters": 463353},
+                {"county":"Jefferson", "registered_voters": 432438}]
+for i in range(len(voting_data)):
+    print(voting_data[i]['county'])
+
+for county in range(len(voting_data)):
+    print(county)
