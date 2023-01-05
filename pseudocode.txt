@@ -1,0 +1,5 @@
+Read in data
+List of all unique Candidates
+Total votes for each unique Candidates
+Total of Candidates Total
+Find max Candidate Totals and related Candidate
